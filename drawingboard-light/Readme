@@ -1,0 +1,8 @@
+This demo enables cooperative drawing from html5 capable browser clients.
+It allows CRUD operations for drawings using JAX-RS and SSE (implemented by Jersey) 
+and simultaneous changes of the same drawing using WebSocket (implemented by Tyrus).
+The server side demos Jersey and Tyrus integration on top of Grizzly.
+
+To build the demo, run: mvn package
+To run the demo, run: java -jar java -jar target\drawingboard-light-ijug-1.0-SNAPSHOT.one-jar.jar
+and then go to http://localhost:8080/drawingboard/ in a browser
